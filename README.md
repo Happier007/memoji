@@ -1,2 +1,2 @@
 # memoji
-final project of specialization interface development (MIPT &amp; Yandex on Coursera)
+Memoji is a game in which you should find in one minute all pairs represented by emojis.

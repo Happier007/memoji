@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<title>Финал Неделя 3</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript" src="index.js" defer></script>
+</head>
+<body>
+<h1 class="game-caption">Memodji</h1>
+<main class="game-field">
+
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐶"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐶"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐭"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐭"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐰"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐰"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐼"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐼"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐯"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐯"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐮"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+	<div class="card">
+		<input class="card__checkbox" type="checkbox">
+		<div class="card__side card__side_face" data-emodji="🐮"></div>
+		<div class="card__side card__side_back"></div>
+	</div>
+
+</main>
+<section class="timer">01:00</section>
+
+<section class="popup hidden">
+	<div class="popup__background"></div>
+	<div class="popup__window">
+		<div class="popup__caption">
+			<div class="popup__animation popup__animation_win">
+				<span>W</span><span>i</span><span>n</span>
+			</div>
+			<div class="popup__animation popup__animation_lose hidden">
+				<span>L</span><span>o</span><span>s</span><span>e</span>
+			</div>
+		</div>
+		<button class="popup__btn">Play again</button>
+	</div>
+</section>
+
+<article id="debug">
+	<button onclick="winGame(true);">win</button>
+	<button onclick="winGame();">lose</button>
+	<section class="emogji-gallery">
+	🐶 🐱 🐭 🐹 
+	🐰 🐻 🐼 🐨 
+	🐯 🦁 🐮 🐷 
+	🐸 🐙 🐵 🦄 
+	🐞 🦀 🐟 🐊 
+	🐓 🦃 🐿
+	</section>
+</article>
+</body>
+</html>	
